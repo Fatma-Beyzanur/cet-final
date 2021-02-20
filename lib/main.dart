@@ -1,4 +1,4 @@
-import 'package:cetquiz_app/Screens/QuizPage.dart';
+import 'package:cetquiz_app/Screens/orkide.dart';
 import 'Screens/HomePage1.dart';
 import 'Screens/HomePage.dart';
 import 'package:flutter/material.dart';

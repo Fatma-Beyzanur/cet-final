@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:cetquiz_app/Screens/HomePage.dart';
+import 'package:carousel_slider/carousel_slider.dart';
 
 void gotoHomePage(BuildContext context) {
   Navigator.of(context).push(
@@ -10,7 +11,9 @@ class HomePage1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       appBar: AppBar(
+
         backgroundColor: Colors.deepPurple,
 
         title: Row(
@@ -23,19 +26,23 @@ class HomePage1 extends StatelessWidget {
             ),
 
             Container(
-                padding: const EdgeInsets.all(0.0), child: Text('FINAL PROJECT Beyzanur Özel',
+
+                 child: Text('FINAL PROJECT Beyzanur Özel',
               style: TextStyle(fontFamily: 'b',color:Colors.white),
             )
             ),],),
 
       ),
       body: Column(
+
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
+
           Padding(
             padding: const EdgeInsets.only( bottom: 30.0),
             child: Container(
+
               width: double.infinity,
               padding: EdgeInsets.symmetric(horizontal: 0.0),
               child: Center(
@@ -51,8 +58,8 @@ class HomePage1 extends StatelessWidget {
 
               ),
 
-
             ),
+
           ),
 
           SizedBox(
@@ -68,7 +75,7 @@ class HomePage1 extends StatelessWidget {
                   keyboardType: TextInputType.emailAddress),
        ),
           SizedBox(
-            height: 60,
+            height: 10,
           ),
 
           Padding(
@@ -97,6 +104,7 @@ class HomePage1 extends StatelessWidget {
         ],
 
       ),
+
       // backgroundColor: Color.fromRGBO(237, 237, 237,1.0),
     );
   }
